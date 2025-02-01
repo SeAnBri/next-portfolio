@@ -7,6 +7,8 @@ import { Badge } from '@/components/shared/Badge'
 import { Project } from '@/components/types'
 import projects from '@/fixtures/projects'
 
+export const runtime = 'edge'
+
 type ProjectPageParams = { id: string }
 
 const ProjectPage = ({ params }: { params: Promise<ProjectPageParams> }) => {
